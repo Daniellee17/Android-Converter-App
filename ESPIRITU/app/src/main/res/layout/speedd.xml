@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#9eedbc"
+    tools:context="com.example.daniellemarie.espiritu.speed">
+
+    <TextView
+
+        android:id="@+id/textView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:fontFamily="bold"
+        android:text="Answer"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:ems="3"
+        android:fontFamily="bold"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/ctoF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/round_button"
+        android:backgroundTint="#EF407A"
+        android:fontFamily="bold"
+        android:onClick="cc"
+        android:text="kilometer to mile"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ftoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/ctoF"
+        android:layout_alignRight="@+id/ctoF"
+        android:layout_alignTop="@+id/ctoF"
+        android:layout_marginTop="62dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="#EF407A"
+        android:fontFamily="bold"
+        android:onClick="ff"
+        android:text="    yard to meter    "
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/textView2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:text="Speed Converter"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

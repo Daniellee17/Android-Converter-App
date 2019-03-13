@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fa9ba9"
+    tools:context="com.example.daniellemarie.espiritu.MainActivity">
+
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/gg" />
+
+    <ImageView
+        android:layout_marginLeft="200dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/timmy"
+        android:layout_width="200dp"
+        android:layout_height="250dp" />
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/denzel"
+        android:layout_width="130dp"
+        android:layout_marginBottom="120dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_marginTop="730dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginBottom="29dp"
+        android:background="@null"
+        android:fontFamily="cursive"
+        android:text="Convert Now!"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="60dp"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+      android:layout_marginLeft="40dp"
+        android:layout_marginBottom="60dp"
+        android:background="@null"
+        android:fontFamily="cursive"
+        android:text="Danielle Espiritu 11515007"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="280dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/temperatureButton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+
+                android:background="@mipmap/ic_thermometer_foreground" />
+
+            <Button
+                android:layout_marginLeft="30dp"
+                android:id="@+id/areaButton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+
+                android:background="@mipmap/ic_house" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_marginRight="30dp"
+                android:id="@+id/speedButton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/ic_speed" />
+
+            <Button
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/volumeButton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/ic_volume" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
